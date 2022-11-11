@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Incluindo videos hospedados localmente</h1>
+    <p>Neste exercicio temos as tags e dicas para incluir videos e ve-los rodar nos sites.</p>
+    <p>O video estará hospedado no meu proprio servidor</p>
+    <video width="300" poster="imagens/capa-video.png" controls autoplay>
+        <source src="midia/video-teste.mp4" type="video/mp4">
+        <source src="midia/Video-Teste.m4v" type="video/mp4">
+        <source src="midia/Video-Teste.webm" type="video/webm">
+        <p>Seu navegador não é compativel com a reprodução de vides</p> <!--Usar esse paragrafo após a inclusão das midias, pois caso o navegador que o usuario estiver usando não rodar os tipos de videos carregados, aparecerá a mensagem inscrita no paragrafo-->
+    </video>
+    <h1>Inserindo Videos Hospedados no Youtube</h1>
+    <p> Aqui eu so preciso copiar a incorporação do video do Youtube e cola-lá no meu codigo</p>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

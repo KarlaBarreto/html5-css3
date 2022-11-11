@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+    
+}
+
+/*INSERIR AQUI A VARIAVEL ROOT COM A PALETA DE CORES QUE VOU USAR NO SITE, A FONTE PADRAO DO SITE E AS FONTES DESTAQUES*/
+
+body {
+    background-color: #EBE5C5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;    
+}
+   
+strong {
+    color: #063D1E;
+}
+
+
+header {
+    background-image: linear-gradient(to top, #063D1E, #2FA866);
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'bebasneue', sans-serif; 
+    font-size: 48px;  
+    
+        
+}
+
+header p {
+    color: white;
+    text-align: center;    
+    font-style: bolder;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+
+header a {
+    color: #83E1AD;    
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 13px;
+
+}
+
+header a:hover {
+    background-color: #2FA866;
+    color: #063D1E;
+    border-radius: 5px;
+}
+
+main > article {
+    background-color: white;    
+    width: 1030px;    
+    margin: auto;
+    padding-top: 10px;       
+    border-radius: 0px 0px 5px 5px;
+    
+    
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #063D1E;
+    background-color: #83E1AD;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article h1 {
+    font-family: 'idroid', sans-serif;
+    font-size: 28px;
+    color: #063D1E;
+    margin: 20px;
+}
+
+article p {
+    text-indent: 30px;
+    font-style: justify;
+    line-height: 2em;
+    padding: 2px 15px;      
+    
+}
+
+article h2 {
+    font-family: 'idroid', sans-serif;
+    font-size: 20px;
+    color: #063D1E;
+    background-image: linear-gradient(to right, #3ddc859d, transparent);
+    margin: 20px;   
+
+}
+
+article img {
+    display: block;
+    margin: auto;
+}
+
+#mascote {
+    display: block; 
+    margin: auto;     
+    
+}
+
+article iframe {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    margin: 10px;
+    padding: 15px; 
+}
+
+aside > h3 {    
+    color: white;
+    background-color: #063d1e;
+    border-radius: 10px 10px 0px 0px;
+   
+    
+}
+
+div#final {
+    background-color: #83E1AD;
+    text-align: justify;
+    
+    
+}
+
+div p {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #063D1E;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;    
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #83E1AD;
+}
+
+

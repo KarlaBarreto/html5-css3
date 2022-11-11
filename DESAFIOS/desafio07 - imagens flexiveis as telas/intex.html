@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da variação de imagens</title>
+</head>
+<body>
+    <h1>Diferentes tamanhos de Imagem</h1>
+    <pre>
+        <p>Nesse arquivo você consegue ver tres cortes e tamanhos diferentes de uma mesma imagem,
+para que ela possa se adaptar a todas as telas.
+        </p>
+    </pre>
+    <picture>
+        <source media="(max-width:750px)" srcset="img-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img-m.png" type="image/png">
+        <img src="img-g.png" alt="Imagem Flexivel">
+    </picture>
+</body>
+</html>
