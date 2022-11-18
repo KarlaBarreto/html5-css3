@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px; /*largura de todos os quadrados iguais*/
+            height: 400px;
+            border-collapse: collapse; /*para as celulas da tabela ficarem coladas*/
+        }
+
+        td.td11 {
+            background-color: rgba(0, 255, 255, 0.589);
+            font-weight: bolder;
+            color: rgb(197, 10, 41);
+        }
+         
+        td {
+            border: 1px solid rgb(129, 125, 125);
+            padding: 5px;     
+            vertical-align: top; /*caso eu queira deixar os textos da tabela nas extremidades: cima ou baixo*/ /*para centro, direita e esquerda usar text-align normalmente*/    
+            text-align: center;         
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--É NECESSARIO SEGUIR A HIERARQUIA DAS TAGS DAS TABELAS, SENDO ELA:
+    1ª TAG <TABLE> = TABELA
+    2ª TAG <TR> = LINHA DA TABELA
+    3ª TAG <TH> = CABEÇALHO DA TABELA
+    4ª TAG <TD> = DADOS DA TABELA-->
+        <table>
+            <tr>
+                <td>CACHORRO</td>
+                <td>GATO</td>
+                <td>PASSARINHO</td>
+            </tr>
+            <tr>
+                <td>ARVORE</td>
+                <td>FOLHA</td>
+                <td>FRUTA</td>
+            </tr>
+            <tr>
+                <td>CARRO</td>
+                <td>MOTO</td>
+                <td>AVIÃO</td>
+            </tr>
+            <tr>
+                <td>PRAIA</td>
+                <td class="td11">PISCINA</td>
+                <td>LAGO</td>
+            </tr>
+            
+        </table>
+</body>
+</html>

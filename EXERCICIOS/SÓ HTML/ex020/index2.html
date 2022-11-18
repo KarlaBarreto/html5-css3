@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Semanticas</title>
+    <style>
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        .numero {
+            text-align: right;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            position: relative;
+            
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas com TAGS semanticas</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 466 630</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="numero">300.248.595</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
